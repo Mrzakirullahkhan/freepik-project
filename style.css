@@ -1,0 +1,728 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100% !important; */
+}
+.container{
+    /* width: 100% !important; */
+}
+.blue-container{
+    width: 100% !important;
+    background-color:rgba(45,84,204,255);
+    height: 530px;
+}
+#navigation{
+    
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  
+
+    
+  
+
+}
+
+.navbar-text1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+    
+}
+.navbar-text1 ul li{
+    
+    align-items: center;
+    list-style: none;
+    padding-right: 5px;
+    
+    
+}
+
+
+.navbar-text1 ul li a{
+    text-decoration: none;
+    padding: 6px 12px;
+    transition: 0.5s;
+    color: white;
+    border-radius: 5px;
+    
+
+    
+
+
+}
+.navbar-text1 ul li a:hover{
+    color: rgb(136, 136, 240);
+    transition: 0.4s;
+}
+.button  a{
+    border: 1px solid rgb(242, 242, 245);
+    
+ 
+    
+}
+.button{
+    
+}
+
+/* ye navbar k bd wala kaam hai  */
+.items {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    line-height: 40px;
+    word-spacing: 4px;
+    color: white;
+
+}
+
+
+.buttons{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+   
+
+    
+}
+.buttons a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: rgba(248, 246, 246);
+    line-height:1.35rem;
+    border: 1px solid rgb(248, 246, 246);
+    margin: 0 5px;
+    background-color:rgba(47,89,209,255);
+    border-radius: 2px;
+}
+.search-bar{
+    display: flex;
+    align-items:center ;
+    margin: 10px 285px;
+    background-color: white;
+    /* justify-content: center; */
+    border: 1px solid white;
+    border-radius: 3px;
+    
+    
+    
+}
+.input{
+    font-size: 16px;
+    padding: 10px 148px;
+    border: transparent;
+    border-left: 1px solid rgb(163, 154, 154);
+
+}
+.assets {
+    text-decoration: none;
+    list-style: none;
+}
+.assets  a{
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    padding: 10px 25px;
+    list-style: none;
+    color: black;
+    
+}
+
+/* tokens wala kaam yaha hai  */
+#tokens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -24px 0px;
+    
+    
+
+}
+#tokens p{
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+    
+
+}
+.token-1 a img{
+    border: 4px solid rgb(145, 145, 224) ;
+    background: url(photos/token1.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-size: 100%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    transform: scale(1);
+    transition: 0.2s;
+    
+}
+.token-1 a img:hover{
+    transform:scale(1.1) ;
+    background:  url(photos/token1.avif), rgb(240, 237, 237);
+    background-size: 100%;
+}
+
+.token-2 a img{
+    border: 4px solid rgb(145, 145, 224) ;
+    background: url(photos/token2.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-size: 100%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    transform: scale(1);
+    transition: 0.2s;
+    
+}
+.token-2 a img:hover{
+    transform:scale(1.1) ;
+    background:  url(photos/token2.avif), rgb(240, 237, 237);
+    background-size: 100%;
+}
+.token-3 a img{
+    border: 4px solid rgb(145, 145, 224) ;
+    background: url(photos/token3.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-size: 100%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    transform: scale(1);
+    transition: 0.2s;
+    
+}
+.token-3 a img:hover{
+    transform:scale(1.1) ;
+    background:  url(photos/token3.avif), rgb(240, 237, 237);
+    background-size: 100%;
+}
+.token-4 a img{
+    border: 4px solid rgb(145, 145, 224) ;
+    background: url(photos/token4.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-size: 100%;
+    border-radius: 50%;
+    width: 135px;
+    height: 130px;
+    transform: scale(1);
+    transition: 0.2s;
+}    
+.token-4 a img:hover{
+    transform:scale(1.1) ;
+    background:  url(photos/token4.avif), rgb(240, 237, 237);
+    background-size: 100%;
+}
+.token-5 a img{
+    border: 4px solid rgb(145, 145, 224) ;
+    background: url(photos/token5.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-size: 100%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    transform: scale(1);
+    transition: 0.2s;
+}    
+.token-5 a img:hover{
+    transform:scale(1.1) ;
+    background:  url(photos/token5.avif), rgb(240, 237, 237);
+    background-size: 100%;
+}
+.token-6 a img{
+    border: 4px solid rgb(145, 145, 224) ;
+    background: url(photos/token6.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-size: 100%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    transform: scale(1);
+    transition: 0.2s;
+}    
+.token-6 a img:hover{
+    transform:scale(1.1) ;
+    background:  url(photos/token6.avif), rgb(240, 237, 237);
+    background-size: 100%;
+}
+.token-7 a img{
+    border: 4px solid rgb(145, 145, 224) ;
+    background: url(photos/token7.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-size: 100%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    transform: scale(1);
+    transition: 0.2s;
+}    
+.token-7 a img:hover{
+    transform:scale(1.1) ;
+    background:  url(photos/token7.avif), rgb(240, 237, 237);
+    background-size: 100%;
+}
+.token-8 a img{
+    border: 4px solid rgb(145, 145, 224) ;
+    background: url(photos/token8.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-size: 100%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    transform: scale(1);
+    transition: 0.2s;
+}    
+.token-8 a img:hover{
+    transform:scale(1.1) ;
+    background:  url(photos/token8.avif), rgb(240, 237, 237);
+    background-size: 100%;
+}
+/* text or button wala section  */
+.text-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(199,235,255,255);
+    height: 96px;
+}
+.text-button h6{
+    font-size: 1.2rem;
+    font-style: inherit;
+    padding-right: 30px;
+}
+.text-button a{
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border: 1px solid #1273eb;
+    background-color: #1273eb;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+
+}
+/* cards wala section  */
+.container-1{
+    background-color: #f8fafb;
+}
+
+.info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    line-height: 35px;
+
+}
+.explore{
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+}
+.explore span{
+    color: #1273eb;
+}
+.info .paragraph{
+    font-size: 1.2rem;
+    color: rgb(138, 132, 132);
+}
+
+
+/* cards wala portion hai ye  */
+.cards{
+    display: grid;
+    background-color: #dbdbdb;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    margin: 10px;
+    grid-template-columns: 315px 315px auto auto;
+    grid-template-rows: 225px 225px 225px; 
+    grid-template-areas: "card1 card1 card2 card3"
+                         "card1 card1 card4 card5"
+                         "card6 card7 card8 card9";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+   
+
+    
+                
+
+}
+.card{
+    color: white;
+    font-weight: bold;
+    padding-top: 200px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.card1{
+    background: url(photos/card1.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-size: cover;
+    border-radius: 8px;
+    grid-area: card1;
+    padding-top: 420px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.card1:hover{
+    transform:scale(1.01) ;
+    background:  url(photos/card1.avif), rgb(240, 237, 237);
+    background-size: cover
+}
+
+.card2{
+
+    background: url(photos/card2.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    grid-area: card2;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.card2:hover{
+    transform:scale(1.01) ;
+    background:  url(photos/card2.avif), rgb(240, 237, 237);
+    background-size: cover
+}
+.card3{
+    grid-area: card3;
+    background: url(photos/card3.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.card3:hover{
+    transform:scale(1.01) ;
+    background:  url(photos/card3.avif), rgb(240, 237, 237);
+    background-size: cover
+}
+.card4{
+    
+    grid-area: card4;
+    background: url(photos/card4.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.card4:hover{
+    transform:scale(1.01) ;
+    background:  url(photos/card4.avif), rgb(240, 237, 237);
+    background-size: cover;
+}
+.card1:hover{
+    transform:scale(1.01) ;
+    background:  url(photos/card1.avif), rgb(240, 237, 237);
+    background-size: cover
+}
+.card5{
+
+    grid-area: card5;
+    background: url(photos/card5.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.card5:hover{
+    transform:scale(1.01) ;
+    background:  url(photos/card5.avif), rgb(240, 237, 237);
+    background-size: cover
+}
+.card6{
+    /* background-color: purple; */
+    grid-area: card6;
+    background: url(photos/card6.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.card6:hover{
+    transform:scale(1.01) ;
+    background:  url(photos/card6.avif), rgb(240, 237, 237);
+    background-size: cover;
+}
+.card7{
+    
+    grid-area: card7;
+    background: url(photos/card7.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.card7:hover{
+    transform:scale(1.01) ;
+    background:  url(photos/card7.avif), rgb(240, 237, 237);
+    background-size: cover;
+}
+.card8{
+    
+    grid-area: card8;
+    background: url(photos/card8.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.card8:hover{
+    transform:scale(1.01) ;
+    background:  url(photos/card8.avif), rgb(240, 237, 237);
+    background-size: cover;
+}
+.card9{
+    
+    grid-area: card9;
+    background: url(photos/card9.avif), rgb(194, 189, 189);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.2s;
+}
+.card9:hover{
+    transform:scale(1.03) ;
+    background:  url(photos/card9.avif), rgb(240, 237, 237);
+    background-size: cover;
+}
+
+/* icon or text wla portion  */
+.span1{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    font-style: inherit;
+}
+.icon-text{
+    padding: 70px 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.paragraph11{
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.icon1{
+    display: flex;
+}
+.icon2{
+    display: flex;
+}
+.icon3{
+    display: flex;
+}
+.icon4{
+    display: flex;
+}
+/* freepik */
+.freepik{
+    display: flex;
+    justify-content: space-between;
+    background-color:lightblue;
+    padding: 50px 50px;
+    margin: 15px;
+    border-radius: 5px;
+    
+}
+
+.span3{
+    color: blue;
+}
+.cell-content{
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid #0161CD;
+    background-color: #0161CD;
+    border-radius: 3px;
+
+    color: white;
+    padding: 5px 30px;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+    position: relative; 
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s;
+    transform: scale(1);
+
+}
+.cell-content:active{
+    transform: scale(0.8);
+}
+/* dark mood wala section  */
+.dark-mood{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('photos/dark.jpg');
+    padding: 15px 20px;
+}
+.text3 h2{
+    color: white;
+}
+.browser-calender{
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid #0161CD;
+    background-color: #0161CD;
+    border-radius: 3px;
+
+    color: white;
+    padding: 11px 20px;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+    position: relative; 
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s;
+    transform: scale(1);
+
+}
+.browser-calender:active{
+    transform: scale(0.8);
+}
+.span4{
+    color: orange;
+}
+
+/* footer section  */
+.bold-1{
+    
+    font-size: 17px;
+    color: rgb(228, 227, 227);
+    font-weight: 400;
+    padding: 3px 70px;
+}
+.normal{
+    color:rgb(228, 227, 227);
+    padding: 0px 70px;
+}
+.footer{
+    background-color: #1d262d;
+    padding: 40px;
+    display: flex;
+}
+.image-icons{
+    margin: 10px 70px;
+}
+/* button  sign up */
+.browser-calender{
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid #0161CD;
+    background-color: #0161CD;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 11px 20px;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+    position: relative; 
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s;
+    transform: scale(1);
+
+}
+.sign-up{
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid #0161CD;
+    background-color: #0161CD;
+    border-radius: 3px;
+
+    color: white;
+    padding: 11px 20px;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+    position: relative; 
+    cursor: pointer;
+    margin-top: 20px ;
+    margin-left: 70px;
+    padding: 11px 20px;
+    transition: 0.2s;
+    transform: scale(1);
+
+}
+.sign-up:active{
+    transform: scale(0.8);
+}
+.sign-up:active{
+    transform: scale(0.8);
+}
+
+/* last wala part  */
+.English{
+    text-decoration: none;
+    font-size: 17px;
+    border: 3px solid white;
+    background-color:#1d262d;
+    border-radius: 3px;
+
+    color: white;
+    padding: 8px 20px;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+    position: relative; 
+    cursor: pointer;
+}
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #1d262d;
+}
+.display{
+    display: flex;justify-content: start;
+    align-items: center;
+}
+.display p{
+    color: white;
+}
+
+
